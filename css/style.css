@@ -1,0 +1,36 @@
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #uploader{
+            width: 900px;
+            background-color: #f5f2f0;
+            display: flex;
+            justify-content: center;
+            margin: 20px auto;
+            padding:20px;
+            border-radius: 10px;
+        }
+
+        #uploader img{
+            width: 100px;
+            margin: 10px auto;
+        }
+
+        #upload{
+            display: none;
+        }
+
+        #gallery{
+            width: 900px;
+            margin: 20px auto;
+            columns: 3 250px;
+        }
+
+        .gallery-img{
+            width: 100%;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
